@@ -128,6 +128,30 @@ h3 {
 	color: rgba(93, 39, 0, 0.65);
 }
 
+.card-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 1000px;
+	gap: 2rem;
+}
+
+.card-container .card {
+	width: 280px;
+	height: 340px;
+	border: 2px solid red;
+	background: blue;
+	border-radius: 12px;
+	padding: 1.5rem;
+	color: #fff;
+	font-family: 'HighAlpine', sans-serif;
+	font-size: 3rem;
+	letter-spacing: 5px;
+	font-weight: bold;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
 @media (max-width: 620px) {
 	.intro-container h1 {
 		font-size: 6rem;
