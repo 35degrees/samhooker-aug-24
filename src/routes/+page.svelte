@@ -1,4 +1,4 @@
-<div class="main-container">
+<div class="main-container bgGrid">
   <div class="intro-container"> 
     <h1 class="container font-bold text-left mx-auto drop-shadow-sm">Sam Hooker</h1>
     <h2 class="container text-left mx-auto drop-shadow-sm">Data Visualization Specialist</h2>
